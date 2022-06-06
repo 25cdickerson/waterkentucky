@@ -67,18 +67,63 @@ footer div{
 	margin-right: auto;
 }
 
+.rowmenu{
+	height: 250px;
+}
+
+.columnmenu {
+  float: left;
+}
+
+.leftmenu {
+    width: 25%;
+	height: inherit;
+}
+
+.leftmenu div{
+	width: 95%;
+	height: inherit;
+	display: block;
+	text-align: center;
+	background-color: white;
+	outline: 1px solid black;
+	box-shadow: rgb(51, 51, 51) 5px 0px 15px,
+                rgb(51, 51, 51) -5px 0px 15px;
+	margin: auto;
+}
+
+.leftmenu div h4{
+	padding-top: 13%;
+}
+
+.leftmenu div p{
+	font-size: 12px;
+}
+
+.leftmenu h4{
+	font-size: 14px;
+}
+
+.leftmenu h5{
+	font-size: 13px;
+}
+
+.rightmenu {
+  width: 75%;
+}
+
 #blueNav{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 70%;
+	width: 80%;
 }
 
 #Parts{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
+	width: 70%;
 }
 
 .wave{

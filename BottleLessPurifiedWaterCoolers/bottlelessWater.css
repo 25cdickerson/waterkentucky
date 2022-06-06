@@ -1,3 +1,21 @@
 @charset "UTF-8";
-/* CSS Document */
+/* Styles for bottlelessWater.css */
 
+/* General Styles */
+
+
+/* Table Styles  */
+.Img{
+	background: white;
+}
+
+.Img img{
+	display: block;
+	margin: auto;
+	width: auto;
+	height: 100%;
+}
+
+.desc{
+	background-image: url("../pexels-lumn-1028600.jpg");
+	background-size: fill;
