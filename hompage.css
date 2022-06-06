@@ -1,0 +1,215 @@
+@charset "UTF-8";
+/* Hompage Styles */
+/* General Styles */
+p{
+	width: 75%;
+	text-align: center;
+	margin: auto;
+	line-height: 1.5;
+	font-size: 14px;
+	color: black;
+}
+
+p a{
+	color: black;
+}
+
+#apDiv1{
+	height: auto;
+}
+
+/* Map Table 2 Col */
+.column {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  float: left;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+.info{
+	background-image: url("home_scroll_1_baby_bath.jpeg");
+	background-size: cover;
+}
+
+.map{
+    background-image: url("home_scroll_2c_adult.jpeg");
+	background-size: cover;
+}
+
+.map .left{
+	width: 50%;
+}
+
+.map .right{
+	width: 50%;
+}
+
+#loc iframe{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Map Table 3 Col */
+
+.row3{
+	display: block;
+	margin: auto;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column3 {
+  float: left;
+  padding: 10px;
+  height: auto; /* Should be removed. Only for demonstration */
+}
+
+.left3, .right3 {
+  width: 22%;
+}
+
+.middle3 {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row3 p{
+	width: 90%;
+}
+
+/* Image Styles */
+.Img{
+	text-align: center;
+	height: auto;
+	background-color: white;
+	outline: 1px solid black;
+	box-shadow: rgb(51, 51, 51) 5px 0px 15px,
+                rgb(51, 51, 51) -5px 0px 15px;
+	padding: 50px;
+}
+
+.Img img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 30%;
+	width: 30%;
+}
+
+.Household img{
+	height: 50%;
+	width: 50%;
+}
+
+.Img h4{
+	font-size: 12px;
+	text-align: center;
+	/* Fallback: Set a background color. */
+	background-color: lightskyblue;
+
+	/* Create the gradient. */
+	background-image: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+
+	/* Set the background size and repeat properties. */
+	background-size: 100%;
+	background-repeat: repeat;
+
+	/* Use the text as a mask for the background. */
+	/* This will show the gradient as a text color rather than element bg. */
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; 
+	-moz-background-clip: text;
+	-moz-text-fill-color: transparent;
+	line-height: 1.5;
+}
+
+.Img a{
+	line-height: 1.5;
+	color: black;
+}
+
+.spacer{
+	height: 25px;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 1020px){
+	.right{
+		display: block;
+		width: 100%;
+	}
+	
+	.left{
+		display: block;
+		margin-left: auto;
+		margin-right:auto;
+		text-align: center;
+		width: 100%;
+	}
+	
+	.left3, .right3{
+		display: none;
+	}
+	
+	.middle3{
+		display: block;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media only screen and (max-width: 500px){
+	iframe{
+		width: 300px;
+		height: 150px;
+	}
+	
+	.map{
+    	background: white;
+	}
+	
+	.info{
+		background: white
+	}
+	
+	
+	.map .left{
+		width: inherit;
+	}
+	
+	.map .right{
+		width: 0;
+	}
+	
+	.info .right{
+		width: inherit;
+	}
+	
+	.info .left{
+		width: 0;
+	}
+	
+	.column{
+		padding: 25px;
+	}
+}
