@@ -68,7 +68,7 @@ footer div{
 }
 
 .rowmenu{
-	height: 250px;
+	height: 325px;
 }
 
 .columnmenu {
@@ -97,15 +97,15 @@ footer div{
 }
 
 .leftmenu div p{
-	font-size: 12px;
+	font-size: 15px;
 }
 
 .leftmenu h4{
-	font-size: 14px;
+	font-size: 17px;
 }
 
 .leftmenu h5{
-	font-size: 13px;
+	font-size: 15px;
 }
 
 .rightmenu {
@@ -351,4 +351,17 @@ a {
     	background-size: cover;
 		padding-botton: 20px;
 	}
+	
+	.leftmenu{
+		display: none;
+	}
+	
+	.rightmenu{ 
+		width: 100%;
+	}
+	
+	.rowmenu{
+		height: auto;
+	}
+	
 }

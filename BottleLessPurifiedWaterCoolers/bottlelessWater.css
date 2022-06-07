@@ -2,6 +2,87 @@
 /* Styles for bottlelessWater.css */
 
 /* General Styles */
+p{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	width: 90%;
+}
+
+/* Bottleless Split */
+.row{
+	width: 100%;
+	height: auto;
+	padding-bottom: 100px;
+	background-image: url("../imageedit_10_7376449577.jpg");
+	background-size: cover;
+}
+
+.colbot{
+	float: left;
+}
+
+.right{
+	width: 75%;
+}
+
+.left{
+	width: 25%;
+}
+
+/* roTable Styles */
+.roTable{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bracket{
+	color: blue;
+	font-size: 60px;
+}
+
+.text{
+	font-size: 15px;
+}
+
+/* bottlefreeTable styles */
+.rowBottleFree{
+	width: 100%;
+	height: 250px;
+	padding-bottom: 100px;
+	background-image: url("../imageedit_10_7376449577.jpg");
+	background-size: cover;
+}
+
+.colBottleFree{
+	float: left;
+}
+
+.rightBottleFree{
+	width: 75%;
+}
+
+.leftBottleFree{
+	width: 25%;
+}
+
+.bottlefreeTable{
+	width: 100%;
+}
+
+.bottlefreeTable td{
+	padding: 10px;
+}
+
+.bottlefreeTable h4{
+	text-decoration: underline;
+}
+
+.leftBottleFree ul{
+	list-style-type: none;
+}
 
 
 /* Table Styles  */
@@ -17,5 +98,6 @@
 }
 
 .desc{
-	background-image: url("../pexels-lumn-1028600.jpg");
-	background-size: fill;
+	/*background-image: url("../imageedit_10_7376449577.jpg");
+	background-size: cover;*/
+}
