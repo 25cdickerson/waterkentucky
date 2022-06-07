@@ -12,9 +12,8 @@ p{
 
 /* Bottleless Split */
 .row{
+	display: inline-block;
 	width: 100%;
-	height: auto;
-	padding-bottom: 100px;
 	background-image: url("../imageedit_10_7376449577.jpg");
 	background-size: cover;
 }
@@ -33,13 +32,28 @@ p{
 
 /* roTable Styles */
 .roTable{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+  	display: block;
+	margin: 0 auto;
 }
 
 .bracket{
-	color: blue;
+	/* Fallback: Set a background color. */
+	background-color: lightskyblue;
+
+	/* Create the gradient. */
+	background-image: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+
+	/* Set the background size and repeat properties. */
+	background-size: 100%;
+	background-repeat: repeat;
+
+	/* Use the text as a mask for the background. */
+	/* This will show the gradient as a text color rather than element bg. */
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; 
+	-moz-background-clip: text;
+	-moz-text-fill-color: transparent;
+	line-height: 1.5;
 	font-size: 60px;
 }
 
@@ -50,8 +64,7 @@ p{
 /* bottlefreeTable styles */
 .rowBottleFree{
 	width: 100%;
-	height: 250px;
-	padding-bottom: 100px;
+	display: inline-block;
 	background-image: url("../imageedit_10_7376449577.jpg");
 	background-size: cover;
 }
@@ -78,6 +91,18 @@ p{
 
 .bottlefreeTable h4{
 	text-decoration: underline;
+	font-size: 14px;
+}
+
+.bottlefreeTable h5{
+	font-size: 13px;
+}
+
+.num{
+	display: inline-flex;
+	font-size: 20px;
+	
+	color: blue;
 }
 
 .leftBottleFree ul{
@@ -100,4 +125,17 @@ p{
 .desc{
 	/*background-image: url("../imageedit_10_7376449577.jpg");
 	background-size: cover;*/
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 950px){
+	.colBottleFree{ 
+		width: 100%;	
+	}
+	.leftBottleFree table{
+		display: flex;
+		margin: auto;
+		border: none;
+	}
+	
 }
