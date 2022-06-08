@@ -11,6 +11,7 @@ div p{
 
 /* Div Styles */
 #apDiv8{
+	display: inline-block;
 	background-image: url("../imageedit_10_7376449577.jpg");
 	background-size: cover;
 	padding-top: 10px;
@@ -122,6 +123,21 @@ div p{
 	color: black;
 }
 
-.spacer{
-	height: 25px;
+/* Mobile Styles */
+@media only screen and (max-width: 1000px){
+	.rightRevOs{
+		display: none;
+	}
+	
+	.leftRevOs{
+		width: 95%;
+	}
+	
+	.leftRevOs .Img{
+		display: none;
+	}
+	
+	.centerRevOs{
+		width: 95%;
+	}
 }
