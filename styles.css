@@ -81,19 +81,16 @@ footer div{
 }
 
 .leftmenu div{
+	padding-top: 50px;
+	padding-bottom: 50px;
 	width: 95%;
-	height: inherit;
-	display: block;
+	display: inline-block;
 	text-align: center;
 	background-color: white;
 	outline: 1px solid black;
 	box-shadow: rgb(51, 51, 51) 5px 0px 15px,
                 rgb(51, 51, 51) -5px 0px 15px;
 	margin: auto;
-}
-
-.leftmenu div h4{
-	padding-top: 13%;
 }
 
 .leftmenu div p{

@@ -74,7 +74,7 @@ p a{
 .column3 {
   float: left;
   padding: 10px;
-  height: auto; /* Should be removed. Only for demonstration */
+  height: auto;
 }
 
 .left3, .right3 {
