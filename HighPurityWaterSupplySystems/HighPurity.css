@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* General Styles */
+#apDiv8{
+	display: inline-block;
+	width: 100%;
+	background-image: url("../imageedit_10_7376449577.jpg");
+	background-size: cover;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/* 3 Col Styles */
+.rowHighPurity{
+	display: block;
+	margin: auto;
+}
+
+.colHighPurity{
+  float: left;
+  padding: 10px;
+  height: auto;
+}
+
+.leftHighPurity, .rightHighPurity {
+  width: 22%;
+}
+
+.centerHighPurity {
+  width: 50%;
+}
+
+.centerHighPurity .Model{
+	width: 100%;
+}
+
+/* Clear floats after the columns */
+.rowHighPurity:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.rowHighPurity p{
+	width: 90%;
+}
+
+.Img img{
+	width: 25%;
+}
+
