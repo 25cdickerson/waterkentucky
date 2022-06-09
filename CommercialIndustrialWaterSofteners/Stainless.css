@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* General Styles */
+
+/* 2 Col SS Img Styles */
+.rowSSImg{
+	display: inline-block;
+	width: 100%;
+	background-image: url("../imageedit_10_7376449577.jpg");
+	background-size: cover;
+	text-align: center;
+}
+
+.colSSImg {
+  float: left;
+}
+
+.colSSImg img{
+	width: 100%;
+}
+
+.leftSSImg {
+  width: 57%;
+  align-self: left;
+}
+
+.rightSSImg {
+  width: 43%;
+}
+
+/* 2 Col Final Styles */
+.rowFinal{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+
+.colFinal {
+  float: left;
+}
+
+.leftFinal {
+  width: 35%;
+  align-self: left;
+}
+
+.rightFinal {
+  width: 65%;
+}
+
+.rowFinal h2{
+	width: 100%;
+}
+
+.rowFinal td{
+	width: 50%;
+}
+
+.rowFinal table{
+	width: 100%;
+}
+
+.rowFinal p{
+	font-size: 12px;
+}
+
+/* 2 Col Final Market */
+.rowMarket{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+
+.colMarket {
+  float: left;
+}
+
+.leftMarket {
+  width: 50%;
+  align-self: left;
+}
+
+.rightMarket {
+  width: 50%;
+}
+
+.rowMarket td{
+	width: 50%;
+}
+
+.rowMarket table{
+	width: 100%;
+}
+
+.rowMarket p{
+	font-size: 12px;
+}
+
+.rowMarket li{
+	list-style: none;
+}
+
+.Img img{
+	width: 20%;
+	height: 40%;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 650px){
+	.colFinal{
+		width: 100%;
+	}
+	
+	.colMarket{
+		width: 100%;
+	}
+	
+	.Img img{
+		display: none;
+	}
+}

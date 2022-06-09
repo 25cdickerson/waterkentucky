@@ -123,3 +123,29 @@ div p{
 	color: black;
 }
 
+/* Mobile Styles */
+@media only screen and (max-width: 1000px){
+	.rightSoftWater{
+		width: 95%;
+	}
+	
+	.leftSoftWater{
+		display: none;
+	}
+	
+	.rightSoftWater .Img{
+		display: none;
+	}
+	
+	.centerSoftWater{
+		width: 95%;
+	}
+}
+
+@media only screen and (max-width: 650px){
+	.colQuote{
+		width: 100%;
+		padding-bottom: 10px;
+	}
+}
+
