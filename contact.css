@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Profile Image Styles */
+.ken{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 15%;
+	outline: 1px solid black;
+	box-shadow: rgb(51, 51, 51) 5px 0px 15px,
+                rgb(51, 51, 51) -5px 0px 15px;
+}
+
+iframe{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#apDiv8 p{
+	background-image: url("imageedit_10_7376449577.jpg");
+	background-size: cover;
+}
+
+#apDiv1 table{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#apDiv1 table tbody{
+	width: 100%;
+}
+
+#apDiv1 table tr{
+	width: 100%;
+}
+
+#apDiv1 table td{
+	text-align: center;
+	width: 100%;
+}
+
+@media only screen and (max-width: 500px){
+	.ken{
+		width: 50%;
+	}
+}
