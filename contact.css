@@ -24,9 +24,7 @@ iframe{
 }
 
 #apDiv1 table{
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
+	width: 100%;
 }
 
 #apDiv1 table tbody{
@@ -42,7 +40,7 @@ iframe{
 	width: 100%;
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 950px){
 	.ken{
 		width: 50%;
 	}
