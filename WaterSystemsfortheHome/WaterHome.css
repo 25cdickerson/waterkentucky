@@ -170,3 +170,58 @@
 	width: auto;
 	height: auto;
 }
+
+@media only screen and (max-width: 1100px){
+	.colBad{
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	
+	.leftBad{
+		width: 100%;
+	}
+	
+	.centerBad{
+		width: 100%;
+	}
+	
+	.rightBad{
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 950px){
+	.leftBad img{
+		width: 80%;
+	}
+	
+	.colHome{
+		width: 100%;
+	}
+	
+	.tableAfford td, .tableAfford th{
+		display: block;
+		width: 100%;
+	}
+	
+	.tableAfford th{
+		padding-bottom: 10px;
+	}
+	
+	.colCombo{
+		display: block;
+		width: 100%;
+	}
+	
+	.rightCombo{
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	
+	.tableImg{
+		display: block;
+		width: 100%;
+	}
+	
+	.tableAf
+}
