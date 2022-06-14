@@ -1,0 +1,172 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* General Styles */
+
+/* ColHome Styles */
+.rowHome{
+	display: inline-block;
+	width: 100%;
+	background-image: url("../imageedit_10_7376449577.jpg");
+	background-size: cover;
+}
+
+.colHome {
+  float: left;
+}
+
+.leftHome {
+  width: 75%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.leftHome p{
+	display: block;
+	margin: auto;
+	width: 85%;
+	text-align: center;
+}
+
+.rightHome {
+  width: 25%;
+}
+
+.rightHome img{
+	display: block;
+	margin: auto;
+	width: auto;
+	height: auto;
+}
+
+/* colBad Styles */
+.rowBad{
+	display: block;
+	margin: auto;
+}
+
+.rowBad img{
+	display: block;
+	margin: auto;
+	width: auto;
+}
+
+.colBad{
+  display: block;
+  float: left;
+  padding: 10px;
+  height: inherit;
+}
+
+.leftBad, .rightBad {
+  width: 25%;
+}
+
+.leftBad{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.centerBad {
+  width: 45%;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.centerBad h5{
+	display: block;
+	margin: auto;
+	font-size: 25px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #F26D80;
+	font-weight: bold;
+}
+
+/* Clear floats after the columns */
+.rowBad:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.rowBad p{
+	width: 90%;
+}
+
+/* tableAfford Styles */
+.tableAfford img{
+	display: block;
+	margin: auto;
+	width: auto;
+	height: auto;
+}
+
+.tableAfford p{
+	text-align: center;
+}
+
+.tableAfford td{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.split{
+	background-image: url("../imageedit_10_7376449577.jpg");
+	background-size: cover;
+}
+
+.split td{
+	width: 50%;
+}
+
+.split p{
+	text-align: center;
+	width: 90%;
+}
+
+/* tableCombo Styles */
+.tableCombo{
+	margin: auto;
+	outline: solid 1px;
+}
+.tableCombo td{
+	outline: solid 1px;
+}
+
+/* rowCombo Styles */
+.rowCombo{
+	display: inline-block;
+	width: 100%;
+}
+
+.colCombo {
+  float: left;
+}
+
+.leftCombo {
+  width: 75%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.leftCombo p{
+	display: block;
+	margin: auto;
+	width: 85%;
+	text-align: center;
+}
+
+.rightCombo {
+  width: 25%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.rightCombo img{
+	display: block;
+	margin: auto;
+	width: auto;
+	height: auto;
+}
