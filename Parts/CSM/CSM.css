@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* General Styles */
+#apDiv8{
+	display: inline-block;
+	background-image: url("../../imageedit_10_7376449577.jpg");
+	background-cover: cover;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#apDiv8 p{
+	display: block;
+	margin: auto;
+	width: 80%;
+}
+
+/* CSM 3 Col Styles */
+.rowCSM{
+	display: block;
+	margin: auto;
+}
+
+.colCSM{
+  float: left;
+}
+
+.leftCSM {
+  width: 22%;
+}
+
+.rightCSM{
+	width: 22%;
+}
+
+.centerCSM {
+  width: 50%;
+}
+
+.centerCSM .Model{
+	width: 100%;
+}
+
+/* Clear floats after the columns */
+.rowCSM:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.rowCSM p{
+	width: 90%;
+	text-align: center;
+}
+
+.Img img{
+	display: block;
+	margin: auto;
+}
+
+.Img h5{
+	font-size: 12px;
+	display: block;
+	margin: auto;
+}
+
+.leftCSMM{
+	display: none;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 950px){
+	.leftCSMM{
+		display: block;
+		width: 45%;
+	}
+	
+	.rightCSM{
+		width: 45%;
+	}
+	
+	.leftCSM{
+		display: none;
+	}
+	
+	.centerCSM{
+		width: 100%;
+	}
+}
+
+
+@media only screen and (max-width: 500px){
+	table td{
+		font-size: 8px;
+	}
+}

@@ -1,0 +1,19 @@
+/* CSS Document */
+
+/* General Styles */
+
+#apDiv8{
+	display: inline-block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-image: url("../../imageedit_10_7376449577.jpg");
+	background-size: cover;
+}
+
+#apDiv8 p{
+	width: 90%;
+	text-align: center;
+	display: block;
+	margin: auto;
+}
+

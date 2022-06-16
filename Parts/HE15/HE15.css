@@ -1,0 +1,122 @@
+/* CSS Document */
+
+/* General Styles */
+#apDiv8{
+	display: inline-block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-image: url("../../imageedit_10_7376449577.jpg");
+	background-size: cover;
+}
+
+#apDiv8 p{
+	width: 90%;
+	text-align: center;
+	display: block;
+	margin: auto;
+}
+
+h4 a{
+	color: blue;
+	text-decoration-line: underline;
+}
+
+/* HE15 3 Col Styles */
+.rowHE15{
+	display: block;
+	margin: auto;
+}
+
+.colHE15{
+  float: left;
+}
+
+.leftHE15 {
+  width: 22%;
+}
+
+.rightHE15{
+	width: 22%;
+}
+
+.centerHE15 {
+  width: 50%;
+}
+
+.centerHE15 .Model{
+	width: 100%;
+}
+
+/* Clear floats after the columns */
+.rowHE15:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.rowHE15 p{
+	width: 90%;
+	text-align: center;
+}
+
+.Img img{
+	display: block;
+	margin: auto;
+}
+
+.Img h5{
+	font-size: 12px;
+	display: block;
+	margin: auto;
+}
+
+table{
+	width: 100%;
+}
+
+.leftHE15M{
+	display: none;
+}
+
+.ProductM{
+	display: none;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 950px){
+	.leftHE15M{
+		display: block;
+		width: 45%;
+	}
+	
+	.rightHE15{
+		width: 45%;
+	}
+	
+	.leftHE15{
+		display: none;
+	}
+	
+	.centerHE15{
+		width: 100%;
+	}
+	
+	.Product{
+		display: none;
+		visibility: hidden;
+	}
+	
+	.ProductM{
+		display: block;
+		margin: auto;
+		text-align: center;
+		width: 90%;
+	}
+}
+
+
+@media only screen and (max-width: 500px){
+	table td{
+		font-size: 8px;
+	}
+}
