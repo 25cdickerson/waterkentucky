@@ -5,4 +5,93 @@
 #apDiv1{
 	background-image: url("../../imageedit_10_7376449577.jpg");
 	background-size: cover;
+	display: inline-block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#apDiv1 p{
+	display: block;
+	margin: auto;
+	width: 80%;
+}
+
+/* Bruner 3 Col Styles */
+.rowBruner{
+	display: block;
+	margin: auto;
+}
+
+.colBruner{
+  float: left;
+}
+
+.leftBruner {
+  width: 22%;
+}
+
+.rightBruner{
+	width: 22%;
+}
+
+.centerBruner {
+  width: 50%;
+}
+
+.centerBruner .Model{
+	width: 100%;
+}
+
+/* Clear floats after the columns */
+.rowBruner:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.rowBruner p{
+	width: 90%;
+	text-align: center;
+}
+
+.Img img{
+	display: block;
+	margin: auto;
+}
+
+.Img h5{
+	font-size: 12px;
+	display: block;
+	margin: auto;
+}
+
+.leftBrunerM{
+	display: none;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 950px){
+	.leftBrunerM{
+		display: block;
+		width: 45%;
+	}
+	
+	.rightBruner{
+		width: 45%;
+	}
+	
+	.leftBruner{
+		display: none;
+	}
+	
+	.centerBruner{
+		width: 100%;
+	}
+}
+
+
+@media only screen and (max-width: 500px){
+	table td{
+		font-size: 8px;
+	}
 }
