@@ -1,19 +1,98 @@
 /* CSS Document */
 
 /* General Styles */
-
 #apDiv8{
 	display: inline-block;
+	background-image: url("../../imageedit_10_7376449577.jpg");
+	background-cover: cover;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	background-image: url("../../imageedit_10_7376449577.jpg");
-	background-size: cover;
 }
 
 #apDiv8 p{
-	width: 90%;
-	text-align: center;
+	display: block;
+	margin: auto;
+	width: 80%;
+}
+
+/* CSM 3 Col Styles */
+.rowHIFLO2{
 	display: block;
 	margin: auto;
 }
+
+.colHIFLO2{
+  float: left;
+}
+
+.leftHIFLO2 {
+  width: 22%;
+}
+
+.rightHIFLO2{
+	width: 22%;
+}
+
+.centerHIFLO2 {
+  width: 50%;
+}
+
+.centerHIFLO2 .Model{
+	width: 100%;
+}
+
+/* Clear floats after the columns */
+.rowHIFLO2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.rowHIFLO2 p{
+	width: 90%;
+	text-align: center;
+}
+
+.Img img{
+	display: block;
+	margin: auto;
+}
+
+.Img h5{
+	font-size: 12px;
+	display: block;
+	margin: auto;
+}
+
+.leftHIFLO2M{
+	display: none;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 950px){
+	.leftHIFLO2M{
+		display: block;
+		width: 45%;
+	}
+	
+	.rightHIFLO2{
+		width: 45%;
+	}
+	
+	.leftHIFLO2{
+		display: none;
+	}
+	
+	.centerHIFLO2{
+		width: 100%;
+	}
+}
+
+
+@media only screen and (max-width: 500px){
+	table td{
+		font-size: 8px;
+	}
+}
+
 
