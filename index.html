@@ -8,10 +8,11 @@
 <link rel="icon" href="water-drops-icon-22.png"/>
 <link href="styles.css" rel="stylesheet" media="all"/>
 <link href="hompage.css" rel="stylesheet" media="all"/>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <script>
-  function runBurgerrun() {
+var element = document.getElementById("#burger");
+element.addEventListener('click', function(){
+	console.log("click");
     var menu = document.getElementById("navagation")
     var displaySetting = menu.style.display;
     var button = document.getElementById("burger");
@@ -22,7 +23,7 @@
     else {
       menu.style.display = 'none';
     }
-  }	
+  });
 </script>
 </head>
 
@@ -31,7 +32,7 @@
 <body>
 <div class = "container">
 	<nav>
-		<button onclick="runBurgerrun()" class = "burgerbutton" id = "burger"></button>
+		<button class = "burgerbutton" id = "burger"></button>
 		<ul class = "list" id = "navagation">
 			<li><a href = "index.html">Home</a></li>
 			<li>Products
