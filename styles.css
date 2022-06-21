@@ -352,7 +352,7 @@ a {
 		z-index: 2;
 	}
 	
-	nav ul li:focus ul.sub-nav{
+	nav ul li:active ul.sub-nav{
 		visibility: visible;
 		color: #444759;
 		transform: translateY(-40px);
