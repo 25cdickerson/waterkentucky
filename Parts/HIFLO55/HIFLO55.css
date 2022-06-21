@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* General Styles */
+#apDiv8{
+	display: inline-block;
+	background-image: url("../../imageedit_10_7376449577.jpg");
+	background-cover: cover;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#apDiv8 p{
+	display: block;
+	margin: auto;
+	width: 80%;
+}
+
+/* CSM 3 Col Styles */
+.rowHIFLO55{
+	display: block;
+	margin: auto;
+}
+
+.colHIFLO55{
+  float: left;
+}
+
+.leftHIFLO55 {
+  width: 22%;
+}
+
+.rightHIFLO55{
+	width: 22%;
+}
+
+.centerHIFLO55 {
+  width: 50%;
+}
+
+.centerHIFLO55 .Model{
+	width: 100%;
+}
+
+/* Clear floats after the columns */
+.rowHIFLO55:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.rowHIFLO55 p{
+	width: 90%;
+	text-align: center;
+}
+
+.Img img{
+	display: block;
+	margin: auto;
+}
+
+.Img h5{
+	font-size: 12px;
+	display: block;
+	margin: auto;
+}
+
+.leftHIFLO55M{
+	display: none;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 950px){
+	.leftHIFLO55M{
+		display: block;
+		width: 100%;
+	}
+	
+	.rightHIFLO55{
+		width: 100%;
+	}
+	
+	.leftHIFLO55{
+		display: none;
+	}
+	
+	.centerHIFLO55{
+		width: 100%;
+	}
+}
+
+
+@media only screen and (max-width: 500px){
+	table td{
+		font-size: 8px;
+	}
+}
