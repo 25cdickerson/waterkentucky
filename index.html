@@ -8,11 +8,10 @@
 <link rel="icon" href="water-drops-icon-22.png"/>
 <link href="styles.css" rel="stylesheet" media="all"/>
 <link href="hompage.css" rel="stylesheet" media="all"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-<script>
-var element = document.getElementById("#burger");
-element.addEventListener('click', function(){
-	console.log("click");
+<!--<script>
+  function runBurgerrun() {
     var menu = document.getElementById("navagation")
     var displaySetting = menu.style.display;
     var button = document.getElementById("burger");
@@ -23,8 +22,8 @@ element.addEventListener('click', function(){
     else {
       menu.style.display = 'none';
     }
-  });
-</script>
+  }	
+</script>-->
 </head>
 
 <div class="MenuBarActive"><a href="index.html"><img src="culligan_logo_white.svg"  alt="Culligan Water Conditioning of of Danville logo" id = "tPhoto"/></a></div>	
@@ -32,7 +31,7 @@ element.addEventListener('click', function(){
 <body>
 <div class = "container">
 	<nav>
-		<button class = "burgerbutton" id = "burger"></button>
+		<button onclick="runBurgerrun()" class = "burgerbutton" id = "burger"></button>
 		<ul class = "list" id = "navagation">
 			<li><a href = "index.html">Home</a></li>
 			<li>Products
