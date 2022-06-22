@@ -5,7 +5,7 @@
 /* General Styles */
 
 html {
-    background: whitesmoke;
+	background-color: #3d3f50;
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
 }
@@ -26,9 +26,11 @@ p{
 
 
 footer{
+	display: inline-block;
+	height: auto;
+	width: 100%;
 	background-color: #3d3f50;
 	color: white;
-	height: auto;
 }
 
 footer div{
@@ -40,17 +42,19 @@ footer div{
 }
 
 .columnFoot{
+	display: block;
 	float: left;
+	margin: auto;
 }
 
 .leftFoot{
 	background-color: #3d3f50;
-	width: 50%;
+	width: 45%;
 }
 
 .rightFoot{
 	background-color: #3d3f50;
-	width: 50%;
+	width: 45%;
 }
 
 .MenuBarActive{
@@ -348,7 +352,7 @@ a {
 		z-index: 2;
 	}
 	
-	nav ul li:focus ul.sub-nav{
+	nav ul li:active ul.sub-nav{
 		visibility: visible;
 		color: #444759;
 		transform: translateY(-40px);
@@ -382,5 +386,12 @@ a {
 	.rowmenu{
 		height: auto;
 	}
+
 	
+}
+
+@media only screen and (max-width: 500px){
+	footer div{
+		font-size: 8px;
+	}
 }
