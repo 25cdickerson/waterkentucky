@@ -76,6 +76,7 @@ footer div{
 }
 
 .rowmenu{
+	display: inline-block;
 	height: 325px;
 }
 
@@ -139,14 +140,14 @@ footer div{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 80%;
+	width: 100%;
 }
 
 #Parts{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 70%;
+	width: 100%;
 }
 
 .wave{
