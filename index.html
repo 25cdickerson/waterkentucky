@@ -20,22 +20,25 @@
 
 	  ga('create', 'UA-47314842-1', 'waterkentucky.com');
 	  ga('send', 'pageview');
-
-
-  function runBurgerrun() {
-    var menu = document.getElementById("navagation")
-    var displaySetting = menu.style.display;
-    var button = document.getElementById("burger");
-
-    if (displaySetting == 'none') {
-      menu.style.display = 'block';
-    }
-    else {
-      menu.style.display = 'none';
-    }
-  }	
 	
-  document.addEventListener("touchstart", function() {}, true);
+	  var button = document.getElementsByClassName("burgerbutton");
+	button.addEventListener("click", runBurgerrun)
+
+	function runBurgerrun() {
+		var menu = document.getElementById("navagation")
+		var displaySetting = menu.style.display;
+
+		if (displaySetting == 'none') {
+			menu.style.display = 'block';
+			button.style.transform = 'rotate(90deg);';
+		}
+		else {
+			menu.style.display = 'none';
+			button.style.transform = 'rotate(90deg);';
+		}
+	}	
+	
+document.addEventListener("touchstart", function() {}, true);
 </script>
 </head>
 
@@ -44,7 +47,7 @@
 <body>
 <div class = "container">
 	<nav>
-		<button onclick="runBurgerrun()" class = "burgerbutton" id = "burger"></button>
+		<button onClick="runBurgerrun()" class = "burgerbutton" id = "burger"></button>
 		<ul class = "list" id = "navagation">
 			<li><a href = "index.html">Home</a></li>
 			<li>Products
