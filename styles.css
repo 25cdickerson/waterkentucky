@@ -298,6 +298,10 @@ a {
 
 @media only screen and (max-width: 950px){
 	/* Styles for Mobile Menu Bar and Nav Bar */
+	.rowmenu{
+		height: 100px;
+	}
+	
 	body{
 		padding-top: 150px;
 	}
