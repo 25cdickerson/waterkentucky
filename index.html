@@ -21,9 +21,8 @@
 	  ga('create', 'UA-47314842-1', 'waterkentucky.com');
 	  ga('send', 'pageview');
 	
-	  var button = document.getElementsByClassName("burgerbutton");
-	button.addEventListener("click", runBurgerrun)
-
+	var button = document.getElementsByClassName("burgerbutton");
+	
 	function runBurgerrun() {
 		var menu = document.getElementById("navagation")
 		var displaySetting = menu.style.display;
@@ -37,6 +36,7 @@
 			//button.style.transform = 'rotate(90deg);';
 		}
 	}	
+	button.addEventListener("click", runBurgerrun)
 	
 document.addEventListener("touchstart", function() {}, true);
 </script>
