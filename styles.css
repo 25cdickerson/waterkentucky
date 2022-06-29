@@ -377,6 +377,7 @@ a {
 		background-color: inherit;
 		background-image: url("clipart365828.png") !important;
     	background-size: cover;
+		transform: rotate(0);
 	}
 	
 	.leftmenu{

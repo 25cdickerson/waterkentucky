@@ -26,17 +26,20 @@
 	function runBurgerrun() {
 		var menu = document.getElementById("navagation")
 		var displaySetting = menu.style.display;
+		var check = 0;
 
 		if (displaySetting == 'none') {
 			menu.style.display = 'block';
-			//button.style.transform = 'rotate(90deg);';
+			check = 0;
 		}
 		else {
 			menu.style.display = 'none';
-			//button.style.transform = 'rotate(90deg);';
+			check = 1;
 		}
 	}	
+	
 	button.addEventListener("click", runBurgerrun)
+	button.style.transform = "rotate(45deg)";
 	
 document.addEventListener("touchstart", function() {}, true);
 </script>
