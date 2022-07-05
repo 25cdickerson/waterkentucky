@@ -108,8 +108,13 @@ p{
 		margin: auto;
 	}
 	
+	.Img {
+		width: 100%;
+	}
+	
 	.Img img{
 		width: auto;
+		height: auto;
 	}
 	
 	.rightHighPurity{
