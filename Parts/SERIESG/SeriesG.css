@@ -73,11 +73,20 @@
 @media only screen and (max-width: 950px){
 	.leftSeriesGM{
 		display: block;
+		width: 90%;
+	}
+	
+	.Img{
 		width: 100%;
 	}
 	
+	.Img img{
+		width: auto;
+		height: auto;
+	}
+	
 	.rightSeriesG{
-		width: 100%;
+		display: none;
 	}
 	
 	.leftSeriesG{
