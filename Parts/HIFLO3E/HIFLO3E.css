@@ -73,11 +73,20 @@
 @media only screen and (max-width: 950px){
 	.leftHIFLO3EM{
 		display: block;
-		width: 45%;
+		width: 90%;
+	}
+	
+	.Img{
+		width: 100%;
+	}
+	
+	.Img img{
+		width: auto;
+		height: auto;
 	}
 	
 	.rightHIFLO3E{
-		width: 45%;
+		display: none;
 	}
 	
 	.leftHIFLO3E{
