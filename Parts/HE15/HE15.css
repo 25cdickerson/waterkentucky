@@ -86,11 +86,21 @@ table{
 @media only screen and (max-width: 950px){
 	.leftHE15M{
 		display: block;
-		width: 45%;
+		width: 90%;
+		margin: auto;
+	}
+	
+	.Img{
+		width: 100%;
+	}
+	
+	.Img img{
+		width: auto;
+		height: auto;
 	}
 	
 	.rightHE15{
-		width: 45%;
+		display: none;
 	}
 	
 	.leftHE15{

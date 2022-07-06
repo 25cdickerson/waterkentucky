@@ -65,6 +65,7 @@ footer div{
 	left: 0;
 	top: 0;
 	align-content: left;
+	z-index: 50;
 }
 
 #tPhoto{
