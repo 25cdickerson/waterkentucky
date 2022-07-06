@@ -73,11 +73,21 @@
 @media only screen and (max-width: 950px){
 	.leftHIFLO55M{
 		display: block;
+		width: 90%;
+		margin: auto;
+	}
+	
+	.Img{
 		width: 100%;
 	}
 	
+	.Img img{
+		width: auto;
+		height: auto;
+	}
+	
 	.rightHIFLO55{
-		width: 100%;
+		display: none;
 	}
 	
 	.leftHIFLO55{
