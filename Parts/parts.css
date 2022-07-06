@@ -73,11 +73,22 @@
 @media only screen and (max-width: 950px){
 	.leftM{
 		display: block;
+		width: 90%;
+		margin: auto;
+	}
+	
+	.Img{
+		display: block;
 		width: 100%;
 	}
 	
+	.Img img{
+		width: auto;
+		height: auto;
+	}
+	
 	.right{
-		width: 100%;
+		display: none;
 	}
 	
 	.left{
