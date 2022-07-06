@@ -74,11 +74,20 @@
 @media only screen and (max-width: 950px){
 	.leftHIFLOXNM{
 		display: block;
-		width: 45%;
+		width: 90%;
+	}
+	
+	.Img{
+		width: 100%;
+	}
+	
+	.Img img{
+		width: auto;
+		height: auto;
 	}
 	
 	.rightHIFLOXN{
-		width: 45%;
+		display: none;
 	}
 	
 	.leftHIFLOXN{
