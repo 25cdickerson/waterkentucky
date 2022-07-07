@@ -98,19 +98,29 @@ p a{
 
 /* Image Styles */
 .imgCar{
-		display: block;
-		width: 90%;
-		margin: auto;
+	display: block;
+	width: 90%;
+	height: 500px;
+	margin: auto;
 }
-
+	
 .Img{
 	width: 100%;
+	height: 100%;
+	margin-right: auto;
+	margin-right: auto;
+	text-align: center;
 }
-
+	
 .Img img{
 	width: auto;
-	height: auto;
-	margin: auto;
+	height: 400px;;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.promo{
+	width: 100%;
 }
 
 h4{
@@ -138,10 +148,6 @@ h4{
 .Img a{
 	line-height: 1.5;
 	color: black;
-}
-
-.spacer{
-	height: 25px;
 }
 
 /* Mobile Styles */
