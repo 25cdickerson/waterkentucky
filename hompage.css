@@ -97,27 +97,19 @@ p a{
 }
 
 /* Image Styles */
+.imgCar{
+		display: block;
+		width: 90%;
+		margin: auto;
+}
+
 .Img{
-	text-align: center;
-	height: auto;
-	background-color: white;
-	outline: 1px solid black;
-	box-shadow: rgb(51, 51, 51) 5px 0px 15px,
-                rgb(51, 51, 51) -5px 0px 15px;
-	padding: 50px;
+	width: 100%;
 }
 
 .Img img{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	height: 30%;
-	width: 30%;
-}
-
-.Household img{
-	height: 50%;
-	width: 50%;
+	width: auto;
+	height: auto;
 }
 
 h4{
