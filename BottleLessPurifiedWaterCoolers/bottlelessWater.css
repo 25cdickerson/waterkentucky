@@ -10,6 +10,11 @@ p{
 	width: 90%;
 }
 
+.banner{
+	display: block;
+	margin: auto;
+}
+
 /* Bottleless Split */
 .row{
 	display: inline-block;
@@ -131,6 +136,10 @@ p{
 
 /* Mobile Styles */
 @media only screen and (max-width: 950px){
+	.banner{
+		width: 90%;
+	}
+	
 	.colBottleFree{ 
 		width: 98%;	
 	}

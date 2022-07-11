@@ -2,43 +2,17 @@
 /* CSS Document */
 
 /* General Styles */
-
-/* ColHome Styles */
-.rowHome{
-	display: inline-block;
-	width: 100%;
-	background-image: url("../imageedit_10_7376449577.jpg");
-	background-size: cover;
-}
-
-.colHome {
-  float: left;
-}
-
-.leftHome {
-  width: 75%;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.leftHome p{
+#apDiv8{
 	display: block;
 	margin: auto;
-	width: 85%;
 	text-align: center;
+	width: 80%;
 }
 
-.rightHome {
-  width: 25%;
-}
-
-.rightHome img{
+.banner{
 	display: block;
 	margin: auto;
-	width: auto;
-	height: auto;
 }
-
 /* colBad Styles */
 .rowBad{
 	display: block;
@@ -178,7 +152,7 @@
 	}
 	
 	.leftBad{
-		width: 100%;
+		display: none;
 	}
 	
 	.centerBad{
@@ -186,7 +160,11 @@
 	}
 	
 	.rightBad{
-		width: 100%;
+		display: none;
+	}
+	
+	.banner{
+		width: 90%;
 	}
 }
 
