@@ -61,7 +61,10 @@ iframe{
 #apDiv1{
 	background-image: url("Images/Untitled.png");
 	background-size: cover;
-	padding: 600px;
+	width: 100%;
+	height: 100%;
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 
 #apDiv1 p, #apDiv1 h4{
@@ -83,10 +86,13 @@ iframe{
 		margin: auto;
 	}
 	
-	#apDiv1{
-		padding: 10px;
-	}
 	#apDiv1 p, #apDiv1 h4{
 		font-size: 15px;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	#apDiv1{
+		padding: 10px;
 	}
 }
