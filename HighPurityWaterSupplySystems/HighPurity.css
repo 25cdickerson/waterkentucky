@@ -15,6 +15,12 @@ p{
 	text-align: center;
 }
 
+.banner{
+	width: 50%;
+	display: block;
+	margin: auto;
+}
+
 /* 3 Col Styles */
 .rowHighPurity{
 	display: block;
@@ -91,6 +97,11 @@ p{
 }
 
 @media only screen and (max-width: 1100px){
+	
+	.banner{
+		width: 90%;
+	}
+	
 	.centerHighPurity{
 		display: block;
 		width: 90%;
